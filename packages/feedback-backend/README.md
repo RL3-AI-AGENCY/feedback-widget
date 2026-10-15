@@ -5,7 +5,7 @@ FastAPI module providing the RL3 feedback widget's backend: SQLModel tables, rou
 ## Install
 
 ```bash
-pip install "rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
+pip install "rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
 ```
 
 ## Public API

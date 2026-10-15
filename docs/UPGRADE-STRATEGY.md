@@ -24,7 +24,7 @@ Each version maps to:
 ```toml
 # pyproject.toml
 [project.dependencies]
-"rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.1.0#subdirectory=packages/feedback-backend"
+"rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.1.0#subdirectory=packages/feedback-backend"
 ```
 
 **Frontend (JS — pnpm)**:
@@ -32,7 +32,7 @@ Each version maps to:
 ```json
 {
   "dependencies": {
-    "@rl3/feedback-widget": "github:rl3aiboutique-cpu/feedback-widget#v0.1.0"
+    "@rl3/feedback-widget": "github:RL3-AI-AGENCY/feedback-widget#v0.1.0"
   }
 }
 ```
@@ -74,13 +74,13 @@ URL pattern and opens a PR when a new tag ships:
         "feedback-widget(?:\\.git)?[@#]v(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ],
       "datasourceTemplate": "github-tags",
-      "depNameTemplate": "rl3aiboutique-cpu/feedback-widget",
+      "depNameTemplate": "RL3-AI-AGENCY/feedback-widget",
       "versioningTemplate": "semver"
     }
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["rl3aiboutique-cpu/feedback-widget"],
+      "matchPackageNames": ["RL3-AI-AGENCY/feedback-widget"],
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }

@@ -10,10 +10,10 @@ The repo is **public** — no auth required. `pip install` / `npm install` work 
 
 ```bash
 # 1. Add the backend dep (in your pyproject.toml dependencies):
-#    "rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
+#    "rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
 
 # 2. Add the frontend dep (in your package.json dependencies):
-#    "@rl3/feedback-widget": "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.4"
+#    "@rl3/feedback-widget": "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.4"
 
 # 3. Wire up: 1 backend call + 1 frontend mount — see `feedback-widget init` for stubs.
 
@@ -46,7 +46,7 @@ This is the contract. Anything not listed is "owned by the widget".
 ## Integration steps (checklist)
 
 1. **Backend dep** — add the `rl3-feedback-widget @ git+https://...@v0.2.4` line to your `pyproject.toml`. The repo is public, so no PAT or BuildKit secret is needed; a plain `pip install` / `uv sync` works inside a Dockerfile too.
-2. **Frontend dep** — add `"@rl3/feedback-widget": "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.4"` to `package.json`. Same: no auth needed for `npm ci` / `pnpm install`.
+2. **Frontend dep** — add `"@rl3/feedback-widget": "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.4"` to `package.json`. Same: no auth needed for `npm ci` / `pnpm install`.
 3. **Env vars** — set the `FEEDBACK_*` vars listed in the table above (full reference below). Hosts without their own DB/S3/SMTP can use the opt-in compose snippet at the repo root.
 4. **Backend wiring** — one call:
 

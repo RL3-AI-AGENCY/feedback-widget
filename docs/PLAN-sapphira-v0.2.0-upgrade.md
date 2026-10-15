@@ -30,9 +30,9 @@ So the upgrade is **pin-bump + run alembic 0003** — no host code changes.
 
 ### 1. Update pins
 - `sapphira-clinic/frontend/package.json:43`
-  `"@rl3/feedback-widget": "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.0"`
+  `"@rl3/feedback-widget": "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.0"`
 - `sapphira-clinic/backend/pyproject.toml:26`
-  `"rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.2.0#subdirectory=packages/feedback-backend"`
+  `"rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.2.0#subdirectory=packages/feedback-backend"`
 - Refresh lockfiles:
   - `cd backend && uv lock --upgrade-package rl3-feedback-widget`
   - `cd frontend && pnpm install`
