@@ -7,7 +7,7 @@ Vendors its own shadcn/ui primitives — host doesn't need to ship them. Generat
 ## Install
 
 ```bash
-pnpm add "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.4"
+pnpm add "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.4"
 ```
 
 ## Public API

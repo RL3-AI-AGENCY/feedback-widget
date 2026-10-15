@@ -33,7 +33,7 @@ make sandbox-up
 **Backend (Python)**:
 
 ```bash
-pip install "rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
+pip install "rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
 ```
 
 ```python
@@ -50,7 +50,7 @@ mount_feedback_widget_for_async_host(
 **Frontend (TS/React)**:
 
 ```bash
-pnpm add "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.4"
+pnpm add "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.4"
 ```
 
 ```tsx

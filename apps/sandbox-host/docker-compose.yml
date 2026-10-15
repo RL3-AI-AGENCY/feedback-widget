@@ -69,7 +69,7 @@ services:
       FEEDBACK_NOTIFY_EMAILS: triage@sandbox.local
       FEEDBACK_BRAND_NAME: "Feedback Sandbox"
       FEEDBACK_ADMIN_DEEP_LINK_BASE: http://localhost:9201
-      FEEDBACK_REPO_URL: "https://github.com/rl3aiboutique-cpu/feedback-widget"
+      FEEDBACK_REPO_URL: "https://github.com/RL3-AI-AGENCY/feedback-widget"
       FEEDBACK_CSRF_REQUIRED: "false"
       FEEDBACK_MULTI_TENANT_MODE: "false"
       FEEDBACK_RATE_LIMIT_PER_HOUR: "200"

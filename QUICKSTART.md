@@ -11,26 +11,26 @@ Plug-and-play feedback widget para cualquier app FastAPI + React. La guía compl
 ### Backend (FastAPI):
 
 ```bash
-pip install "rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
+pip install "rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend"
 ```
 
 O en `pyproject.toml`:
 ```toml
 dependencies = [
   ...,
-  "rl3-feedback-widget @ git+https://github.com/rl3aiboutique-cpu/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend",
+  "rl3-feedback-widget @ git+https://github.com/RL3-AI-AGENCY/feedback-widget.git@v0.2.4#subdirectory=packages/feedback-backend",
 ]
 ```
 
 ### Frontend (React + Vite/Next):
 
 ```bash
-npm install "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.4"
+npm install "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.4"
 ```
 
 O en `package.json`:
 ```json
-"@rl3/feedback-widget": "git+https://github.com/rl3aiboutique-cpu/feedback-widget.git#v0.2.4"
+"@rl3/feedback-widget": "git+https://github.com/RL3-AI-AGENCY/feedback-widget.git#v0.2.4"
 ```
 
 ---
